@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>欢迎小可爱</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/logo.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+                        
+</head>
+<body>
+	<div class="wrapper active-page1">
+		<!--------------------第一页------------------------>
+	  <div class="page page1">
+		  <div>
+		  	<img  id ="word_logo" src="related/wordlogo.png">
+		  	 <div class="related">
+		  	 	</div>
+		  	 <svg viewBox="0 0 1320 300">
+			
+			  <!-- Symbol -->
+			  <symbol id="s-text">
+			    <text text-anchor="middle"
+			          x="50%" y="50%" dy=".35em" style="font-size: 90px;">
+			     软研有你， 更加精彩
+			    </text>
+			  </symbol>  
+			
+			  <!-- Duplicate symbols -->
+			  <use xlink:href="#s-text" class="text"
+			       ></use>
+			  <use xlink:href="#s-text" class="text"
+			       ></use>
+			  <use xlink:href="#s-text" class="text"
+			       ></use>
+			  <use xlink:href="#s-text" class="text"
+			       ></use>
+			  <use xlink:href="#s-text" class="text"
+			       ></use>
+			
+			</svg>
+				<h2 id="info_info">We are family.</h2>
+			 
+			 <img  id ="boyandgirl_logo" src="related/boyandgirl.png">
+	  	  </div>
+	  	</div>
+	  <!--------------------第二页------------------------>
+	  <div class="page page2">
+	  	<img id="word_logo4" src="related/wordlogo.png"/>
+	  	<img id="boys_photo" src="related/boys_2.png"/>
+	  	<img id="girls_photo" src="related/girls_2.png"/>
+	   <div>
+	   	<h2 id="info_number">XXX，你是第X个入职的小可爱哟❤</h2>	
+	   </div>
+	  </div>
+	  <!--------------------第三页------------------------>
+	  <div class="page page3">
+	  	<img  id ="word_logo2" src="related/wordlogo.png">
+	  	<div class="demo" >	
+        <!--蓝红黑-->
+			<h1 id="worddemo">| 全场最佳</h1>
+			  <div id="info_name">长脖子鹿 </div>
+			  <div id="info_word2">软研寄语：加油你是最胖的！ </div>
+			  
+	  </div>
+	  <img  id ="boyandgirl_logo2" src="related/boyandgirl.png">
+	  
+	 </div> 
+	  <!--<div class="page page4">
+	    <div class="related">
+				<h2 id="oldstaff_info">XX,您好！您是第XX个与济南软件研究院签订劳动合同的员工，感谢您为软件研究院做出的贡献！</h2>
+				
+	    </div>
+	    <img id ="word_logo3" src="related/wordlogo.png">
+				<img id="boy_logo" src="related/boy.png">
+				<img id="girl_logo" src="related/girl.png">
+	  </div>-->
+	  <div class="page page4">
+	    <div class="related">
+				<!--<h2 id="oldstaff_info">XX,您好！您是第XX个与济南软件研究院签订劳动合同的员工，感谢您为软件研究院做出的贡献！</h2>
+		<p id="oldstaff_info" align="left"> XX,您好！您是第XX个与济南软件研究院签订劳动合同的员工，感谢您为软件研究院做出的贡献！</p>-->
+            <p id="oldstaff_info1" align="left">
+                尊敬的XXX：
+                <!--您是第XX个与济南软件研究院签订劳动合同的员工，感谢您为软件研究院做出的贡献！-->
+            </p>
+            <p id="oldstaff_info2" align="left">
+                <!--  尊敬的XXX：-->
+                &nbsp;&nbsp;&nbsp;&nbsp;您是第XX个与济南软件研究院签订劳动合同的员工，感谢您为软件研究院做出的贡献！
+            </p>
+	    </div>
+	    <img id ="word_logo3" src="related/wordlogo.png">
+				<!--<img id="boy_logo" src="related/boy.png">
+				<img id="girl_logo" src="related/girl.png">-->
+				<!--<img  id ="boyandgirl_logo3" src="related/boyandgirl.png">-->
+				<img  id ="flower_photo1" src="related/flower.png">
+				<img  id ="flower_photo2" src="related/flower.png">
+				
+	  </div>
+	  
+	</div>
+	<div class="nav-panel">
+	  <div class="scroll-btn up"></div>
+	  <div class="scroll-btn down"></div>
+	  <nav>
+	    <ul>
+	      <li id="topli" data-target="1" class="nav-btn nav-page1 active"></li>
+	      <li data-target="2" class="nav-btn nav-page2"></li>
+	      <li data-target="3" class="nav-btn nav-page3"></li>
+	      <li data-target="4" class="nav-btn nav-page4"></li>
+	      <!--<li data-target="5" class="nav-btn nav-page5"></li>-->
+	     
+	    </ul>
+	  </nav>
+	</div>
+	
+	<script src='js/stopExecutionOnTimeout.js?t=1'></script>
+	<script src='js/jquery-1.11.0.min.js'></script>
+	<script>
+	'use strict';
+	$(document).ready(function () {
+	    var $wrap = $('.wrapper'), pages = $('.page').length, scrolling = false, currentPage = 1, $navPanel = $('.nav-panel'), $scrollBtn = $('.scroll-btn'), $navBtn = $('.nav-btn');
+	    function manageClasses() {
+	        $wrap.removeClass(function (index, css) {
+	            return (css.match(/(^|\s)active-page\S+/g) || []).join(' ');
+	        });
+	        $wrap.addClass('active-page' + currentPage);
+	        $navBtn.removeClass('active');
+	        $('.nav-btn.nav-page' + currentPage).addClass('active');
+	        $navPanel.addClass('invisible');
+	        scrolling = true;
+	        setTimeout(function () {
+	            $navPanel.removeClass('invisible');
+	            scrolling = false;
+	        }, 1000);
+	    }
+	    function navigateUp() {
+	        if (currentPage > 1) {
+	            currentPage--;
+	            if (Modernizr.csstransforms) {
+	                manageClasses();
+	            } else {
+	                $wrap.animate({ 'top': '-' + (currentPage - 1) * 100 + '%' }, 1000);
+	            }
+	        }
+	    }
+	    function navigateDown() {
+	        if (currentPage < pages) {
+	            currentPage++;
+	            if (Modernizr.csstransforms) {
+	                manageClasses();
+	            } else {
+	                $wrap.animate({ 'top': '-' + (currentPage - 1) * 100 + '%' }, 1000);
+	            }
+	        }
+	    }
+	    $(document).on('mousewheel DOMMouseScroll', function (e) {
+	        if (!scrolling) {
+	            if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+	                navigateUp();
+	            } else {
+	                navigateDown();
+	            }
+	        }
+	    });
+
+	    $(document).on('click', '.scroll-btn', function () {
+	        if ($(this).hasClass('up')) {
+	            navigateUp();
+	        } else {
+	            navigateDown();
+	        }
+	    });
+
+
+//定时器=============================================
+
+	function toTop(){
+		      if (!scrolling) {
+	            var target = 1;
+	            if (Modernizr.csstransforms) {
+	                $wrap.removeClass(function (index, css) {
+	                    return (css.match(/(^|\s)active-page\S+/g) || []).join(' ');
+	                });
+	                $wrap.addClass('active-page' + target);
+	                $navBtn.removeClass('active');
+	                $("#topli").addClass('active');
+	                $navPanel.addClass('invisible');
+	                currentPage = target;
+	                scrolling = true;
+	                setTimeout(function () {
+	                    $navPanel.removeClass('invisible');
+	                    scrolling = false;
+	                }, 1000);
+	            } else {
+	                $wrap.animate({ 'top': '-' + (target - 1) * 100 + '%' }, 1000);
+	            }
+	        }
+	}
+        function toLast(){
+            if (!scrolling) {
+                var target = 4;
+                if (Modernizr.csstransforms) {
+                    $wrap.removeClass(function (index, css) {
+                        return (css.match(/(^|\s)active-page\S+/g) || []).join(' ');
+                    });
+                    $wrap.addClass('active-page' + target);
+                    $navBtn.removeClass('active');
+                    $("#topli").addClass('active');
+                    $navPanel.addClass('invisible');
+                    currentPage = target;
+                    scrolling = true;
+                    setTimeout(function () {
+                        $navPanel.removeClass('invisible');
+                        scrolling = false;
+                    }, 1000);
+                } else {
+                    $wrap.animate({ 'top': '-' + (target - 1) * 100 + '%' }, 1000);
+                }
+            }
+        }
+	//	setInterval(navigateDown,"3000");
+	//	setInterval(toTop,"2000");
+//定时器
+	    $(document).on('click', '.nav-btn:not(.active)', function () {
+	        if (!scrolling) {
+	            var target = $(this).attr('data-target');
+	            if (Modernizr.csstransforms) {
+	                $wrap.removeClass(function (index, css) {
+	                    return (css.match(/(^|\s)active-page\S+/g) || []).join(' ');
+	                });
+	                $wrap.addClass('active-page' + target);
+	                $navBtn.removeClass('active');
+	                $(this).addClass('active');
+	                $navPanel.addClass('invisible');
+	                currentPage = target;
+	                scrolling = true;
+	                setTimeout(function () {
+	                    $navPanel.removeClass('invisible');
+	                    scrolling = false;
+	                }, 1000);
+	            } else {
+	                $wrap.animate({ 'top': '-' + (target - 1) * 100 + '%' }, 1000);
+	            }
+	        }
+	    });
+
+
+        //以下为Socket的逻辑代码
+
+        var socket;
+        var state = 0;
+        function changeState(){
+            state = 0;
+        }
+        function openSocket() {
+            if(typeof(WebSocket) == "undefined") {
+                console.log("您的浏览器不支持WebSocket");
+            }else{
+                console.log("您的浏览器支持WebSocket");
+                //实现化WebSocket对象，指定要连接的服务器地址与端口  建立连接
+                var userId = "10";//document.getElementById('userId').value;
+            //  var socketUrl="ws://127.0.0.1:7070/scancode/webSocket/"+userId;
+				var socketUrl="ws://47.95.254.7:7070/scancode/webSocket/"+userId;
+                console.log(socketUrl);
+                if(socket!=null){
+                    socket.close();
+                    socket=null;
+                }
+                socket = new WebSocket(socketUrl);
+                //打开事件
+                socket.onopen = function() {
+                    console.log("websocket已打开");
+                    alert("WebSocket已经成功连接，正在监听扫码请求。")
+                    //socket.send("这是来自客户端的消息" + location.href + new Date());
+                };
+                //获得消息事件
+                socket.onmessage = function(msg) {
+                    var serverMsg = "收到服务端信息：" + msg.data;
+                    var JSONstring = msg.data;
+                    var t1;
+                    var t2;
+                    var t3;
+                    console.log(serverMsg);
+                    if(state==0) {
+                        var jsondata = jQuery.parseJSON(JSONstring);
+                        if (jsondata["interest"] == "1") {
+
+                            $("#oldstaff_info1").html(" 尊敬的"+jsondata["name"]+"：");
+                            $("#oldstaff_info2").html("您是第"+jsondata["number"]+"个与济南软件研究院签订劳动合同的员工，感谢您为软件研究院做出的贡献！");
+                            toLast()
+                        } else {
+                            window.clearInterval(t1)
+                            window.clearInterval(t2)
+                            window.clearInterval(t3)
+
+
+                            $("#info_name").html(jsondata["name"]);
+                            // $("#info_age").html("年龄：" + jsondata["age"]);
+                            // $("#info_sex").html("性别：" + jsondata["sex"]);
+                            // $("#info_level").html("学历：" + jsondata["level"]);
+                            // $("#info_school").html("毕业院校：" + jsondata["school"]);
+                            $("#info_number").html(jsondata["name"] + "，你是第" + jsondata["number"] + "个入职的小可爱哟❤");
+                             if(jsondata["word"]!=null&&jsondata["word"]!=""){
+                                 $("#info_word2").html("软研寄语："+jsondata["word"]);
+                         }else
+						 {
+                             $("#info_word2").html("软研寄语：欢迎新伙伴加入软研大家庭，加油鸭！");
+						 }
+                            state = 1;
+                            toTop();
+
+                            t1 = window.setTimeout(navigateDown, 2000);
+
+                            t2 = window.setTimeout(navigateDown, 4500);
+
+                            t3 = window.setTimeout(toTop, 7000);
+
+                            var t4 = window.setTimeout(changeState, 8000);
+                            //发现消息进入    开始处理前端触发逻辑
+                        }
+                    }
+                };
+                //关闭事件
+                socket.onclose = function() {
+                    alert("WebSocket连接已经关闭");
+                    console.log("websocket已关闭");
+                };
+                //发生了错误事件
+                socket.onerror = function() {
+                    alert("WebSocket发生错误");
+                    console.log("websocket发生了错误");
+                }
+            }
+        }
+        function sendMessage() {
+            if(typeof(WebSocket) == "undefined") {
+                console.log("您的浏览器不支持WebSocket");
+            }else {
+                // console.log("您的浏览器支持WebSocket");
+                var toUserId = document.getElementById('toUserId').value;
+                var contentText = document.getElementById('contentText').value;
+                var msg = '{"toUserId":"'+toUserId+'","contentText":"'+contentText+'"}';
+                console.log(msg);
+                socket.send(msg);
+            }
+        }
+        $(document).ready(function() {
+            openSocket();
+        });
+
+
+//Jqueryd的ready结束
+	});
+
+
+	</script>
+</body>
+</html>

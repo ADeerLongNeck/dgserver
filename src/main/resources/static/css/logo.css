@@ -1,0 +1,410 @@
+
+/*首页*/
+#word_logo{
+	width: 300px;
+	height: auto;
+	position: absolute;
+    top: 10%;
+   left: 11%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+/*第三页*/
+#word_logo2{
+	width: 300px;
+	height: auto;
+	position: absolute;
+    top: 10%;
+   left: 87%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+/*第四页*/
+#word_logo3{
+	width: 250px;
+	height: auto;
+	position: absolute;
+    top: 10%;
+   left: 11%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+/*第二页*/
+#word_logo4{
+	width: 250px;
+	height: auto;
+	position: absolute;
+    top: 10%;
+   left: 11%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+/*首页*/
+#boyandgirl_logo{
+	/*width: 150px;
+	height: auto;
+	position: fixed;
+	right:20px;
+	bottom:20px;*/
+	width: 150px;
+	height: auto;
+	position: absolute;
+    top: 85%;
+   left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+/*第三页*/
+#boyandgirl_logo2{
+	width: 200px;
+	height: auto;
+	/*position: fixed;
+	right:200px;
+	bottom:120px;*/
+	position: absolute;
+    top: 60%;
+   left: 80%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+#rabbitgirl_photo{
+	
+	width: 320px;
+	height: auto;
+	
+	position: absolute;
+    top: 53%;
+   left: 75%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+/*第四页*/
+#boyandgirl_logo3{
+	/*
+	position: fixed;
+	right:200px;
+	bottom:120px;*/
+	width: 180px;
+	height: auto;
+	/*position: fixed;
+	right:20px;
+	top:20px;*/
+	position: absolute;
+    top: 83%;
+   left: 90%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+#boys_photo{
+	width: 300px;
+	height: auto;
+	
+	position: absolute;
+    top: 80%;
+   left: 15%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+#girls_photo{
+	width: 340px;
+	height: auto;
+	
+	position: absolute;
+    top: 77%;
+   left: 85%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+#flower_photo1{
+	width: 170px;
+	height: auto;
+	
+	position: absolute;
+    top: 77%;
+   left: 15%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+#flower_photo2{
+	width: 170px;
+	height: auto;
+	position: absolute;
+    top: 77%;
+   left: 85%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+/*#boy_logo{
+	width: 130px;
+	height: auto;
+	position: fixed;
+	right:80px;
+	bottom:30px;
+}
+#girl_logo{
+	width: 130px;
+	height: auto;
+	position: fixed;
+	left:80px;
+	bottom:30px;
+}*/
+/*长脖子鹿*/
+#info_name{
+	font-size:65px;
+	color: #f2cb01;
+	font-style: oblique;
+	padding-left: 330px;
+	margin-bottom: 15px;
+	/*text-shadow: #C0FF3E 6px 4px 3px;*/
+	font-weight: 400;
+	letter-spacing:7px;
+}
+
+/*第三页  软研寄语：加油你是最胖的！*/
+#info_word2{
+	font-size:45px;
+	color: #FFFFFF;
+	/*font-style: oblique;*/
+	padding-left: 330px;
+}
+/*  首页  无样式  we are family*/
+#info_info{
+	color:  #fff;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  /*text-transform: uppercase;*/
+  font-size: 5em;
+}
+/*你是第几个入职的小可爱*/
+#info_number{
+	color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+  font-size: 3em;
+  text-shadow:#000 3px 4px 5px
+  
+}
+
+
+
+/*老员工欢迎标语*/
+#oldstaff_info1{
+	
+  color: #fff;
+  position: absolute;
+  top: 33%;
+  left: 37%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+  font-size: 2.6em;
+  font-family: STXinwei;
+
+}
+
+#oldstaff_info2{
+	
+  color: #fff;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+  font-size: 2.6em;
+  font-family: STXinwei;
+
+}
+/*全场最佳大盒子*/
+.demo{
+	position: absolute;
+	top: 35%;
+    left: 30%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+	}
+		
+/*黑蓝红*/
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+/*body {
+  background: hsla(0, 0%, 0%, .9); 
+}
+*/
+/*全场最佳*/
+#worddemo {
+  color:hsla(120,50%,100%,1); /*白色*/
+  /*color: hsla(0, 0%, 0%, .9);*/
+  font: normal 80px Varela Round, sans-serif;
+  /*height: 100px;*/
+  left: 0;
+  letter-spacing: 5px;
+  margin: 200px 0 30px 0;
+  /*position: absolute;*/
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  /*width: 100%;*/
+  animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+
+
+/*We are family.*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.text {
+  fill: none;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+  position: absolute;
+ 
+}
+
+.text:nth-child(5n + 1) {
+  stroke: #F2385A;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text:nth-child(5n + 2) {
+  stroke: #F5A503;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.text:nth-child(5n + 3) {
+  stroke: #E9F1DF;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.text:nth-child(5n + 4) {
+  stroke: #56D9CD;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.text:nth-child(5n + 5) {
+  stroke: #3AA1BF;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+/*首页特效字体 盒子  字体大小在html*/
+svg {
+  position: absolute;
+  /*-webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);*/
+    top:-10%; 
+     
+  width: 100%;
+  height: 100%;
+  
+}
+
+
